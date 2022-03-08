@@ -28,6 +28,7 @@ allure {
 dependencies {
     testImplementation(
             "io.rest-assured:rest-assured:$restAssured",
+            "io.rest-assured:json-schema-validator:$restAssured",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "org.assertj:assertj-core:3.22.0",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
